@@ -4,6 +4,8 @@
 
 ## How to use it ?
 
+0) https://github.com/Azure/azure-iot-sdk-python/blob/master/doc/python-devbox-setup.md
+
 1) Install dependencies with `pip3 install -r requirements.txt`
 2) Tweak script (change connection string, payload, interval)
 3) Run `python3 mock_device.py`

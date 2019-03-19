@@ -1,0 +1,16 @@
+{
+  "name": "rickshaw-cli",
+  "version": "1.0.0",
+  "description": "device simulator",
+  "main": "sim-device.js",
+  "scripts": {
+    "start": "node --experimental-modules --no-warnings sim-device.js",
+    "debug": "GRPC_VERBOSITY=DEBUG GRPC_TRACE=all node --inspect-brk --experimental-modules --no-warnings sim-device.js"
+  },
+  "author": "Openhack Essen Team 3",
+  "license": "ISC",
+  "dependencies": {
+    "azure-iot-device": "^1.9.4",
+    "azure-iot-device-mqtt": "^1.9.4"
+  }
+}
