@@ -13,3 +13,9 @@
 ## Requirements
 
 Python 3.6 or latest and pip.
+
+
+## JS version
+
+npm install
+node  challenge1/js/sim-device.js
