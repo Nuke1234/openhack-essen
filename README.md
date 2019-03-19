@@ -2,7 +2,7 @@
 
 
 
-## How to use it ?
+## How to use mock_device.py
 
 0) https://github.com/Azure/azure-iot-sdk-python/blob/master/doc/python-devbox-setup.md
 
