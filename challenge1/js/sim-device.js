@@ -21,6 +21,9 @@ var Mqtt = require('azure-iot-device-mqtt').Mqtt;
 var DeviceClient = require('azure-iot-device').Client;
 var Message = require('azure-iot-device').Message;
 
+const uuidv1 = require('uuid/v1')
+
+
 var client = DeviceClient.fromConnectionString(connectionString, Mqtt);
 
 // Print results.
@@ -31,11 +34,11 @@ function printResultFor(op) {
   };
 }
 
-let ticketId = "sim2 ticket";
 
 // Create a message and send it to the IoT hub every second
 setInterval(function(){
   // Simulate telemetry.
+  let ticketId = uuidv1();
   let entryTime = new Date();
 
   // Add the telemetry to the message body.
