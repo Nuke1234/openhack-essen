@@ -12,6 +12,9 @@
   "dependencies": {
     "azure-iot-device": "^1.9.4",
     "azure-iot-device-mqtt": "^1.9.4",
-    "uuid": "^3.3.2"
+    "generator-azure-iot-edge-module": "^1.3.0",
+    "npm": "^6.9.0",
+    "uuid": "^3.3.2",
+    "yo": "^2.0.5"
   }
 }

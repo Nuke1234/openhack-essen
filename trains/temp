@@ -1,0 +1,1 @@
+az vm create --resource-group OpenHack-IoT-Data-Team003-RG --name FifthTrain --image microsoft_iot_edge:iot_edge_vm_ubuntu:ubuntu_1604_edgeruntimeonly:latest --admin-username azureuser --generate-ssh-keys --size Standard_DS1_v2
